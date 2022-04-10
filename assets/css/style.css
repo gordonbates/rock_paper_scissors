@@ -1,54 +1,60 @@
 body {
-    text-align: center;
-    background-color: darkgray;
+  text-align: center;
+  background-color: darkgray;
 }
 
+
 .scoreboard {
-    max-width: 100%;
-    padding: 2px 0;
-    margin: 2px;
-    color: teal;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
+  max-width: 100%;
+  padding: 2px 0;
+  margin: 2px;
+  color: teal;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
 }
 
 .container {
-    max-width: 100%;
-    padding: 40px 0;
-    margin: 2px;
-    background-color: teal;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
-  }
+  max-width: 100%;
+  padding: 40px 0;
+  margin: 2px;
+  background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
 
 .instruction {
-    max-width: 100%;
-    padding: 2px 0;
-    margin: 2px;
-    color: teal;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
-  }
+  max-width: 100%;
+  padding: 2px 0;
+  margin: 2px;
+  color: teal;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+.btn:active,
+.btn:hover {
+    background-color: darkgray;
+}
 
 .action {
-    max-width: 100%;
-    padding: 40px 0;
-    margin: 2px;
-    background-color: teal;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
-  }
+  max-width: 100%;
+  padding: 40px 0;
+  margin: 2px;
+  background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}

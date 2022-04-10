@@ -4,11 +4,12 @@ let computerScore = 0;
 
 options.forEach((option) => {
     option.addEventListener("click", function () {
-        let playerInput = this.textContent;
+        let playerInput = this.value;
 
         let computerOptions = ["Rock", "Paper", "Scissors"];
         let computerInput = computerOptions[Math.floor(Math.random() * 3)];
 
+        
         compareInputs(playerInput, computerInput);
         updateScore();
         if (checkWinner()) {
@@ -55,6 +56,7 @@ function compareInputs(playerInput, computerInput) {
         }
     }
 }
+
 
 function updateScore() {
     document.getElementById("player-score").textContent = playerScore;
