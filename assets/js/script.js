@@ -31,7 +31,7 @@ function compareInputs(playerInput, computerInput) {
             alert(`${currentMatch} = You Win👏`);
             playerScore++;
         } else {
-            alert(`${currentMatch} = Computer Wins🥲`);
+            alert(`${currentMatch} = CPU Wins🥲`);
             computerScore++;
         }
     }
@@ -41,7 +41,7 @@ function compareInputs(playerInput, computerInput) {
             alert(`${currentMatch} = You Win👏`);
             playerScore++;
         } else {
-            alert(`${currentMatch} = Computer Wins🥲`);
+            alert(`${currentMatch} = CPU Wins🥲`);
             computerScore++;
         }
     }
@@ -51,7 +51,7 @@ function compareInputs(playerInput, computerInput) {
             alert(`${currentMatch} = You Win👏`);
             playerScore++;
         } else {
-            alert(`${currentMatch} = Computer Wins🥲`);
+            alert(`${currentMatch} = CPU Wins🥲`);
             computerScore++;
         }
     }
