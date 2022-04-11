@@ -11,7 +11,7 @@ The classic hand game that is now an interactive online game playing the compute
 - [Features](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#features)
 - [Languages](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#languages)
 - [Programs](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#programs)
-- Testing
+- [Testing](https://github.com/gordonbates/rock_paper_scissors#testing)
 - Deployment
 - Cloning
 - Credits
