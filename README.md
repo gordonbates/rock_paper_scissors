@@ -1,7 +1,6 @@
-![🕹Rock,_Paper_or_Scissors_Game_👊🤚✌️](https://user-images.githubusercontent.com/93173575/162710868-cafaabd0-b926-4ed6-bb5e-27fcac409610.png)
+![🕹Rock,_Paper_or_Scissors_Game_👊🤚✌️ (2)](https://user-images.githubusercontent.com/93173575/162754579-1d62bef0-505a-442e-8567-4ce0d7b5ba1f.png)
 
-
-   # Rock, Paper or Scissors Game
+# Rock, Paper or Scissors Game
 
 The classic hand game that is now an interactive online game playing the computer! 
 
@@ -38,7 +37,7 @@ The game design consists of the scoreboard at the top of the page situated above
 
 ### Wireframes
 
-I used Balsamiq to wireframe the project in Desktop and Mobile mockups
+Balsamiq was used to wireframe the project in both Desktop and Mobile mockups.
 
 Desktop:
 
