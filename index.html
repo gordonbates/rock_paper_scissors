@@ -6,34 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Mono+One&family=Rubik+Moonrocks&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock_Paper_Scissors
-    </title>
+
+    <title>Rock_Paper_Scissors</title>
+
 </head>
 
 <body>
 
     <div class="scoreboard">
         <h2>Player <span id="player-score">0</span> -
-            <span id="computer-score">0</span> Computer</h2>
+            <span id="computer-score">0</span> CPU</h2>
     </div>
 
     <div class="container">
-        <h1>Rock, Paper or Scissors</h1>
-        <h2>First to 5 wins</h2>
+        <h1>Rock, Paper or Scissors Game</h1>
     </div>
 
-    <div class="instruction">
-        <h2>Click on the image below to select your move:</h2>
-    </div>
+    <h2 class="gametype">First to 5 wins!</h2>
 
     <div class="action">
         <input class="options btn" type="image" src="assets/images/rock.png" value="Rock" />
         <input class="options btn" type="image" src="assets/images/paper.png" value="Paper" />
         <input class="options btn" type="image" src="assets/images/scissors.png" value="Scissors" />
     </div>
+
+    <h2 class="instruction">Select your move</h2>
 
     <script src="assets/js/script.js"></script>
 </body>

@@ -1,65 +1,85 @@
 body {
+  margin: 0;
   text-align: center;
-  background-color: darkgray;
-  font-family: "Raleway", sans-serif;
+  background: url("../images/background.jpg") no-repeat;
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+  background-size: cover;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* body {
+  background-image:url("../images/myImage.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+} */
+html {
+  height: 100%
+}
 
 .scoreboard {
   max-width: 100%;
-  padding: 2px 0;
-  margin: 2px;
-  color: teal;
-  background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 20px;
+  margin: 0;
+  font-size: 1rem;
+  text-shadow: 0 0 5px rgb(196, 0, 183);
+  color: white;
+  border: 5px solid rgb(196, 0, 183);
+  /* flex-wrap: wrap; */
 }
+
+
 
 .container {
   max-width: 100%;
-  padding: 40px 0;
-  margin: 2px;
-  background-color: teal;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 20px;
+  padding: 2px 0;
+  margin: 0;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px rgb(196, 0, 183);
+}
+
+.gametype {
+  font-size: 2rem;
+  text-shadow: 0 0 5px rgb(196, 0, 183);
+  max-width: 100%;
+  padding: 2px 0;
+  margin: 0;
+  color: white;
 }
 
 .instruction {
+  font-size: 2rem;
+  text-shadow: 0 0 5px rgb(196, 0, 183);
   max-width: 100%;
   padding: 2px 0;
-  margin: 2px;
-  color: teal;
-  background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 20px;
+  margin: 0;
+  color: white;
 }
 
 .btn {
-  
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  border: 5px solid;
 }
 
-.btn:active,
 .btn:hover {
-  background-color: rgb(0, 71, 71);
+  color: rgb(196, 0, 183);
+  transition: all 0.5s;
+  background-color: black;
+  
 }
 
 .action {
   max-width: 100%;
   padding: 40px 0;
-  margin: 2px;
-  background-color: teal;
+  margin: 0;
+  color: white;
+  /* background-color: teal; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  border-radius: 20px;
+  border-radius: 5px;
 }
+

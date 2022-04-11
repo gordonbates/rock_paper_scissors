@@ -22,36 +22,36 @@ options.forEach((option) => {
 function compareInputs(playerInput, computerInput) {
     let currentMatch = `${playerInput} vs ${computerInput}`;
     if (playerInput === computerInput) {
-        alert(`${currentMatch} is a Draw`);
+        alert(`${currentMatch} is a Draw🤝`);
         return;
     }
     // Check for Rock
     if (playerInput === "Rock") {
         if (computerInput === "Scissors") {
-            alert(`${currentMatch} = You Win`);
+            alert(`${currentMatch} = You Win👏`);
             playerScore++;
         } else {
-            alert(`${currentMatch} = Computer Wins`);
+            alert(`${currentMatch} = Computer Wins🥲`);
             computerScore++;
         }
     }
     //Check for Paper
     else if (playerInput === "Paper") {
         if (computerInput === "Rock") {
-            alert(`${currentMatch} = You Win`);
+            alert(`${currentMatch} = You Win👏`);
             playerScore++;
         } else {
-            alert(`${currentMatch} = Computer Wins`);
+            alert(`${currentMatch} = Computer Wins🥲`);
             computerScore++;
         }
     }
     //Check for Scissors
     else {
         if (computerInput === "Paper") {
-            alert(`${currentMatch} = You Win`);
+            alert(`${currentMatch} = You Win👏`);
             playerScore++;
         } else {
-            alert(`${currentMatch} = Computer Wins`);
+            alert(`${currentMatch} = Computer Wins🥲`);
             computerScore++;
         }
     }
