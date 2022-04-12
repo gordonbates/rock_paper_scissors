@@ -9,7 +9,7 @@ options.forEach((option) => {
         let computerOptions = ["Rock", "Paper", "Scissors"];
         let computerInput = computerOptions[Math.floor(Math.random() * 3)];
 
-        
+
         compareInputs(playerInput, computerInput);
         updateScore();
         if (checkWinner()) {
