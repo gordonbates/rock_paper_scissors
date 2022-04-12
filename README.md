@@ -1,4 +1,4 @@
-![🕹Rock,_Paper_or_Scissors_Game_👊🤚✌️ (2)](https://user-images.githubusercontent.com/93173575/162754579-1d62bef0-505a-442e-8567-4ce0d7b5ba1f.png)
+<img width="1512" alt="banner" src="https://user-images.githubusercontent.com/93173575/162786823-8cb5b28d-b9ec-4f54-b062-68bd1ff4f469.png">
 
 # Rock, Paper or Scissors Game
 
@@ -11,7 +11,7 @@ The classic hand game that is now an interactive online game playing the compute
 - [Features](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#features)
 - [Languages](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#languages)
 - [Programs](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#programs)
-- Testing
+- [Testing](https://github.com/gordonbates/rock_paper_scissors#testing)
 - Deployment
 - Cloning
 - Credits
@@ -78,6 +78,71 @@ Mobile:
 - [GitHub:](https://github.com/) was used to back up instances of the GitPod repository.
 - [Balsamiq](https://balsamiq.com/) was used for wireframing the project.
 - [PythonTutor](https://pythontutor.com/) was used for to see a visualised step by step of executed JavaScript code.
+
+# Testing
+
+## Devices used
+
+### MacbookPro 
+
+- The game was testing on an MacbookPro with a native screen resolution of 3024 x 1964. The game was fully responsive and scaled correctly on Google Chrome, Safari, Firefox and Brave.
+
+
+<img width="1512" alt="banner" src="https://user-images.githubusercontent.com/93173575/162786823-8cb5b28d-b9ec-4f54-b062-68bd1ff4f469.png">
+
+- The game was also tested on a secondary montior with a native resolution of 3440×1440 on all of the above browsers also. 
+
+
+ ![ultrawidetest](https://user-images.githubusercontent.com/93173575/162789094-b7745f21-c0b8-456f-988c-f539aaf02a17.png)
+ 
+ ### Samsung Galaxy Note 20 Ultra
+ 
+ - The test on Galaxy Note using Google Chrome & Firefox browsers showed the game to be responsive and in working order. Bugs were identified though, after selectiing a turn the hover animation wouldn't revert back until another part of the screen was touched.
+
+Galaxy Note 20 with Google Chrome
+
+![firefoxtest2note20](https://user-images.githubusercontent.com/93173575/162794591-38ca066d-3277-461d-b120-80ffc8fc39fb.png)
+
+Galaxy Note 20 with FireFox 
+
+![firefoxtest2note20](https://user-images.githubusercontent.com/93173575/162794591-38ca066d-3277-461d-b120-80ffc8fc39fb.png)
+
+w/bug
+
+![firefoxtestnote20](https://user-images.githubusercontent.com/93173575/162794581-ebb8a5da-8e04-4e84-a00c-1dc822a818dc.png)
+
+## Bug Testing
+
+Some bugs were found on mobile devices where the selected input wouldn't revert back until another part of the screen was pressed. It is documented as a fix for the next version release.
+
+## HTML Validation
+
+- [Nu Html Checker](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-gordonbates-rockpapersci-23roqja2h9s.ws-eu39.gitpod.io%2F)
+No errors were found.
+
+<img width="1512" alt="htmlval" src="https://user-images.githubusercontent.com/93173575/162797884-cc8db2ec-ea4a-43d7-8d64-598be3a0a96f.png">
+No errors were found.
+
+## CSS Validation 
+
+- [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-gordonbates-rockpapersci-23roqja2h9s.ws-eu38.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+No errors were found.
+
+<img width="1512" alt="cssval" src="https://user-images.githubusercontent.com/93173575/162797887-f8051f8c-961b-47ca-920d-2fa306010402.png">
+
+## JavaScript Validation
+
+- [PiliApp ](https://www.piliapp.com/syntax-check/es6/)
+No errors were found.
+
+<img width="1512" alt="javascriptval" src="https://user-images.githubusercontent.com/93173575/162799333-114f014a-fca9-4a74-9fd6-3bf5010f77c9.png">
+
+
+
+
+
+
+
 
 
 
