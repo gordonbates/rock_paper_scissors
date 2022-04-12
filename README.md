@@ -12,28 +12,29 @@ The classic hand game that is now an interactive online game playing the compute
 - [Languages](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#languages)
 - [Programs](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#programs)
 - [Testing](https://github.com/gordonbates/rock_paper_scissors#testing)
-- Deployment
-- Cloning
-- Credits
+- [Deployment](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#deployment)
+- [Cloning](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#cloning)
+- [Credits](https://github.com/gordonbates/rock_paper_scissors/edit/main/README.md#credits)
+
 # User Experience (UX)
 
 ## User Story
 
 ### Intended Audience
 
-The intended audience for this game is to cater for users of all age groups from young to old. Children aged (4+) and adults of all ages.
+The intended audience is for children (4+) an adults of all ages. 
 
-The familiar game of Rock, Paper, Scissors is played like this: at the same time, the user selects  one of three options: a rock, paper, or scissors, the computer instantaneously reveals its random choice. A rock beats scissors, scissors beat paper, and paper beats rock. 
+The game of rock, paper or scissors is played as follows: at the same time, the user selects one of three options: a rock, paper or scissors, whilst the computer instantaneously reveals its random choice. A rock beats scissors, scissors beats paper, and paper beats rock. 
 
-The user must try beat the computer in a first to 5 games, to become the winner!
+The user must try beat the computer in a first to five games to become the winner!
 
 ### Realtime User Suggestions
 
-To advance the game further, it would be suggested to add a 'number of games' selection, eg first to 3 games or first to 10 games.
+To advance the game further, it would be suggested to add a 'number of games' section, eg first to three games or first to ten games.
 
 # Design
 
-The game design consists of the scoreboard at the top of the page situated above the title of the game. Below that is brief instructions to indicate what the player needs to do to start the game
+The game design consists of the scoreboard at the top of the page located above the title of the game. Below that is brief instructions to indicate what the player needs to do to start the game.
 
 ### Wireframes
 
@@ -55,12 +56,12 @@ Mobile:
 
 ## - Instructions
 
-- This shows the user that there is a first to 5 to win the game
-- It also shows how the user can start the game
+- This shows the user that there is a first to five to win the game.
+- It also shows how the user can start the game.
 
 ## - Game Area
 
-- User has a choice of 3 inputs to select. A Rock, A Paper or A Scissors.
+- User has a choice of three inputs to select. A Rock, A Paper or A Scissors.
 
 # Technology Used
 
@@ -85,7 +86,7 @@ Mobile:
 
 ### MacbookPro 
 
-- The game was testing on an MacbookPro with a native screen resolution of 3024 x 1964. The game was fully responsive and scaled correctly on Google Chrome, Safari, Firefox and Brave.
+- The game was tested on an MacbookPro with a native screen resolution of 3024 x 1964. The game was fully responsive and scaled correctly on Google Chrome, Safari, Firefox and Brave.
 
 
 <img width="1512" alt="banner" src="https://user-images.githubusercontent.com/93173575/162786823-8cb5b28d-b9ec-4f54-b062-68bd1ff4f469.png">
@@ -117,11 +118,11 @@ Some bugs were found on mobile devices where the selected input wouldn't revert 
 
 ## HTML Validation
 
-- [Nu Html Checker](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-gordonbates-rockpapersci-23roqja2h9s.ws-eu39.gitpod.io%2F)
+- [Nu Html Checker](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-gordonbates-rockpapersci-23roqja2h9s.ws-eu39b.gitpod.io%2F)
 No errors were found.
 
-<img width="1512" alt="htmlval" src="https://user-images.githubusercontent.com/93173575/162797884-cc8db2ec-ea4a-43d7-8d64-598be3a0a96f.png">
-No errors were found.
+<img width="1510" alt="Screenshot 2022-04-12 at 17 38 31" src="https://user-images.githubusercontent.com/93173575/163012844-c744a119-c2dd-4316-a175-6d1709433eee.png">
+
 
 ## CSS Validation 
 
@@ -136,6 +137,59 @@ No errors were found.
 No errors were found.
 
 <img width="1512" alt="javascriptval" src="https://user-images.githubusercontent.com/93173575/162799333-114f014a-fca9-4a74-9fd6-3bf5010f77c9.png">
+
+# Deployment
+
+## GitHub
+
+For deployment of the website to a live publicly accessible website, the following steps were required:
+
+- Confirmed that correct repository is selected as 'rock_paper_scissors'.
+- Select 'Settings'.
+- Scroll down to 'GitHub Pages' and click on 'Check it out here!'.
+- On the 'Source' section, select Branch as 'main' and click on 'Save'.
+- Your site is published at 'https://gordonbates.github.io/rock_paper_scissors/'
+
+## Gitpod
+
+For deployment of the website to a local environment, the following steps were required:
+
+- Confirmed that correct repository is selected as 'rock_paper_scissors'.
+- To run a new Python server, open a terminal window and type the following code and hit enter:
+  python3 -m http.server
+- Once the Python server is running, you will be prompted to open a browser on port 8000 to show the output.
+
+# Cloning 
+
+To clone a copy of the code in the repository, the following steps are required:
+
+- Go to https://github.com and select the Repository called 'rock_paper_scissors'
+- Click on the button called 'Code" and a pop-out window will show options to Clone through:
+- 
+   - HTTPS
+   - SSH
+   - GitHub CLI
+
+1. On GitHub.com, navigate to the main page of the repository.
+2. Above the list of files, click Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click 'Clipboard to copy'. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click 'Clipboard to copy'. To clone a repository using GitHub CLI, click Use GitHub CLI, then click 'Clipboard to copy'.
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type > git clone and then paste the URL you copied earlier.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+7. Press Enter to create your local clone.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY Cloning into Spoon-Knife... remote: Counting objects: 10, done. remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done.
+
+8. Repository Clone is now complete.
+
+# Credits
+
+- [GoogleFonts](https://fonts.google.com/) was used for the fonts inside the game.
+- [Unsplash](https://unsplash.com/) was used in sourcing the background image.
+- [TopPNG](https://toppng.com/) was used for the HTML, CSS & JS png.
+- [Icon-Library](https://icon-library.com/) was where the Rock, Paper, Scissors hand icons were sourced.
+
 
 
 
